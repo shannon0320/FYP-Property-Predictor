@@ -6,7 +6,7 @@ from src.inference.ui import page_intro
 
 
 st.set_page_config(page_title="Model Performance", page_icon="🧪", layout="wide")
-page_intro("Model Performance", "Results from fixed chronological test periods containing newer, unseen transactions.")
+page_intro("Model Performance", "Newer transaction records were used to evaluate how well the models performed on unseen data.")
 
 rows = [
     ("HDB", "S$32,723", "S$46,304", "0.949"),
