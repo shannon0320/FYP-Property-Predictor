@@ -1,4 +1,4 @@
-"""Pre-aggregated local market views."""
+"""Market Analysis Page of the application"""
 
 import pandas as pd
 import streamlit as st
