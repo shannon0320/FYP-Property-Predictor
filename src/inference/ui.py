@@ -77,8 +77,8 @@ def show_prediction(result: PredictionResult) -> None:
         st.warning(warning)
     if result.category == "landed":
         st.info(
-            "Landed estimates have wider historical errors because individual homes vary substantially "
-            "in land, condition and luxury characteristics not captured here."
+            "Landed property estimates may have larger errors because individual homes differ in "
+            "land size, condition and other property characteristics that are not included in the model."
         )
 
     with st.expander("Model details"):
