@@ -1,4 +1,4 @@
-"""Small Streamlit helpers shared by the local application pages."""
+"""UI page of the application."""
 
 from __future__ import annotations
 
