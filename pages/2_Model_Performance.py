@@ -22,7 +22,7 @@ for name, mae, rmse, r2 in rows:
 
 st.markdown(
     """
-- **MAE** is the average absolute dollar error.
+- **MAE** measures the average difference between predicted and actual property prices.
 - **RMSE** gives larger errors more weight.
 - **R²** is the share of observed price variation captured by the model; it is not an accuracy percentage.
 
