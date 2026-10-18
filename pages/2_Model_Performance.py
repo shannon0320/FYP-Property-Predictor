@@ -27,6 +27,6 @@ st.markdown(
 - **R²** indicates how much of the variation in property prices is explained by the model.
 
 
-The models were evaluated using newer transaction records that were not included during training. Different property categories used different types of information based on the available data. For example, the HDB model included market information and MRT-related data, while the EC and landed models used variables that were more suitable for their respective property categories.
+The models were evaluated using newer transaction records that were not included during training. Different property categories used different types of information based on the available data. E.g. HDB model included market information and MRT-related data, while EC and Landed models used variables more suitable for their respective property categories.
 """
 )
