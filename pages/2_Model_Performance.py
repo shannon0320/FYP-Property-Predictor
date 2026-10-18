@@ -24,7 +24,7 @@ st.markdown(
     """
 - **MAE** measures the average difference between predicted and actual property prices.
 - **RMSE** is similar to MAE but gives more importance to larger errors.
-- **R²** is the share of observed price variation captured by the model; it is not an accuracy percentage.
+- **R²** indicates how much of the variation in property prices is explained by the model.
 
 All testing was chronological: models fitted older transactions and the test sets contained newer transactions. HDB uses a strictly lagged official HDB Resale Price Index and validated MRT distance. EC excludes MRT because it worsened validation performance. Landed excludes MRT because source locations were too imprecise, and its estimates are less precise because landed homes are highly heterogeneous.
 """
