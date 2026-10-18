@@ -26,6 +26,7 @@ st.markdown(
 - **RMSE** is similar to MAE but gives more importance to larger errors.
 - **R²** indicates how much of the variation in property prices is explained by the model.
 
-The models were evaluated using newer transaction records that were not included during training. Different input variables were used for each property category. For example, the HDB model incorporated market indicators and MRT accessibility information, while the EC and landed models used feature sets that were found to be more suitable for their respective datasets.
+
+The models were evaluated using newer transaction records that were not included during training. Different property categories used different types of information based on the available data. For example, the HDB model included market information and MRT-related data, while the EC and landed models used variables that were more suitable for their respective property categories.
 """
 )
