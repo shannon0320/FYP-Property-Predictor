@@ -317,7 +317,7 @@ class PropertyPredictor:
         else:
             row["is_multi_unit_transaction"] = False
             limitations.append(
-                "Landed estimates are less precise because the market is heterogeneous; multi-unit transactions are outside scope."
+                "Landed estimates are less precise because the market is heterogeneous; multi-unit transactions are outside project scope."
             )
         return self._predict_row(
             category, row, valuation,
