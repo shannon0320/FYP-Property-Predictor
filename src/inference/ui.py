@@ -93,4 +93,4 @@ def show_prediction(result: PredictionResult) -> None:
 def page_intro(title: str, description: str) -> None:
     st.title(title)
     st.write(description)
-    st.caption("All runtime predictions use local frozen models and local reference data—no live geocoding or API calls.")
+    st.caption("All predictions are generated using pre-trained models and locally stored reference data.")
