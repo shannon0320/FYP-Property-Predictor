@@ -1,4 +1,4 @@
-"""Plain-language frozen model performance."""
+"""Model Performance page of the application"""
 
 import streamlit as st
 
