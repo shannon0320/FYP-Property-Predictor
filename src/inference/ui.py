@@ -49,8 +49,8 @@ def show_prediction(result: PredictionResult) -> None:
         f"{money(result.range_lower)} – {money(result.range_upper)}"
     )
     st.caption(
-        "Estimated range based on the P80 absolute error for similar predicted-price "
-        "bands in the chronological test period. It is not a confidence interval or guarantee."
+        "The estimated range is based on the model's historical prediction performance "
+        "and should be used as a reference only."
     )
 
     first, second = st.columns(2)
