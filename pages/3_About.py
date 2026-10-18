@@ -1,4 +1,4 @@
-"""Project scope and runtime methodology."""
+"""Project scope of the application"""
 
 import streamlit as st
 
