@@ -12,7 +12,7 @@ st.markdown(
     """
 ### Data and models
 
-The estimates use supplied HDB resale transactions, URA Executive Condominium transactions, URA landed-property transactions, the official HDB Resale Price Index, and official LTA MRT-exit coordinates. OneMap was used only during offline preparation to build a validated local geocoding cache.
+TThe estimates are based on HDB resale transactions, URA residential property transactions, the HDB Resale Price Index (RPI) and MRT-related location information. 
 
 At runtime, models, RPI values, form options, address matches and MRT distances are all loaded locally. The app makes no live OneMap request and needs no API token.
 
