@@ -20,7 +20,7 @@ The application uses locally stored models and reference data to generate predic
 
 - A general private condominium prediction model was not included due to the limited amount of available transaction data.
 - Rental prediction was not included as rental transaction data was not available.
-- EC does not use MRT as a model feature because it worsened validation performance.
+- MRT-related variables were not included in the EC model as they did not improve prediction performance.
 - Landed predictions cover one individual property, exclude portfolio transactions, and do not use MRT due to imprecise source locations.
 
 ### Important limitation
