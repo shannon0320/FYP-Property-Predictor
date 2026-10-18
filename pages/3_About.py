@@ -25,6 +25,6 @@ The application uses locally stored models and reference data to generate predic
 
 ### Important limitation
 
-Predictions and historical error ranges are estimates based on past transaction patterns. They are not professional valuations, guaranteed sale prices, offers, or financial advice. Property condition, renovations, views, exact plot characteristics and sudden market changes may not be represented.
+Predictions and historical error ranges are estimates based on past transaction patterns. They are not professional valuations, guaranteed sale prices, or financial advice. 
 """
 )
