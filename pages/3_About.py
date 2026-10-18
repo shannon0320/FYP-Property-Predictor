@@ -14,7 +14,7 @@ st.markdown(
 
 TThe estimates are based on HDB resale transactions, URA residential property transactions, the HDB Resale Price Index (RPI) and MRT-related location information. 
 
-The application uses locally stored models and reference data to generate predictions and display supporting information. The app makes no live OneMap request and needs no API token.
+The application uses locally stored models and reference data to generate predictions and display supporting information.
 
 ### Scope choices
 
