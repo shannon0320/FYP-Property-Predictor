@@ -168,4 +168,4 @@ if st.button("Estimate property value", type="primary", use_container_width=True
         st.error(f"Prediction could not be completed from the local artifacts: {error}")
 
 st.divider()
-st.caption("For demonstration only. Estimates are not professional valuations, offers, or financial advice.")
+st.caption("For project demonstration only. Price Estimates are not meant for professional valuations or financial advice.")
