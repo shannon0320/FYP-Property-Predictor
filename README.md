@@ -1,6 +1,6 @@
 # Singapore Residential Property Price Predictor
 
-A local Streamlit application meant for estimating HDB's resale, Executive Condominium (EC), and landed-property transaction prices. Production models are already trained and frozen; normal app usage does not retrain models, geocode properties, download MRT data, or call upon OneMap.
+A local Streamlit application meant for estimating HDB resale, Executive Condominium (EC), and landed property transaction prices. Production models are trained and frozen. Normal app usage does not retrain models, geocode properties, download MRT data, or call upon OneMap.
 
 ## Run locally
 
@@ -28,7 +28,7 @@ For Windows Command Prompt, activate with `.venv\Scripts\activate.bat`.
 
 The browser app contains four views: the predictor, local market summaries, frozen-model performance, and methodology. Runtime prediction needs no internet connection, API key, or OneMap token.
 
-## What users enter
+## What users need to enter
 
 - **HDB:** valuation month, town, street, block, flat type, flat model, floor area, storey range, and lease commencement year. Lagged official HDB RPI and eligible MRT distance are resolved locally.
 - **EC:** valuation month, project, area, floor level, sale type, area type, property type, tenure details, postal district, and market segment. MRT may be displayed as context but is not used by the model.
