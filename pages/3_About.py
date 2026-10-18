@@ -6,7 +6,7 @@ from src.inference.ui import page_intro
 
 
 st.set_page_config(page_title="About", page_icon="ℹ️", layout="wide")
-page_intro("About / Methodology", "What the local application uses—and what it deliberately leaves out.")
+page_intro("About / Methodology", "Summary of the datasets, models and limitations of the project.")
 
 st.markdown(
     """
