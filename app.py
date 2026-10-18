@@ -1,4 +1,4 @@
-"""Local Streamlit entry point for Singapore residential price estimates."""
+"""Local Streamlit entry point for Singapore residential property price estimates."""
 
 from __future__ import annotations
 
