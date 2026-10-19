@@ -93,4 +93,8 @@ def show_prediction(result: PredictionResult) -> None:
 def page_intro(title: str, description: str, caption_text: str | None = None) -> None:
     st.title(title)
     st.write(description)
-    st.caption("Predictions are generated using trained models and supporting reference data.")
+
+    if caption_text:
+        st.caption(caption_text)
+    else:
+    st.caption("All predictions are generated using pre-trained models and locally-stored reference data.")
