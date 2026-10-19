@@ -82,7 +82,7 @@ def show_prediction(result: PredictionResult) -> None:
         )
 
     with st.expander("Model details"):
-        st.write(f"Prediction Model: {result.model_name}")
+        st.write("Prediction Model: HDB Price Prediction Model")
         st.write(f"Estimated Price Range Category: {result.calibration_band}")
         st.write(f"Typical Historical Error: {money(result.historical_error_amount)}")
         st.write("Derived Property Information:", result.derived)
