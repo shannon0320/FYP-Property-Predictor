@@ -83,7 +83,7 @@ def show_prediction(result: PredictionResult) -> None:
 
     with st.expander("Model details"):
         st.write(f"Prediction Model: {result.model_name}")
-        st.write(f"Calibration band: {result.calibration_band}")
+        st.write(f"Estimated Price Range Category: {result.calibration_band}")
         st.write(f"P80 historical absolute error: {money(result.historical_error_amount)}")
         st.write("Derived inputs:", result.derived)
         for limitation in result.limitations:
