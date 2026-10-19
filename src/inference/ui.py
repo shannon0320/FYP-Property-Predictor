@@ -85,7 +85,7 @@ def show_prediction(result: PredictionResult) -> None:
         st.write("Prediction Model: HDB Price Prediction Model")
         st.write(f"Estimated Price Range Category: {result.calibration_band}")
         st.write(f"Typical Historical Error: {money(result.historical_error_amount)}")
-        st.write("Derived Property Information:", result.derived)
+       # st.write("Derived Property Information:", result.derived)
         for limitation in result.limitations:
             st.write(f"• {limitation}")
 
