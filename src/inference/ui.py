@@ -37,7 +37,7 @@ def valuation_month_input(key: str) -> str:
 
 
 def money(value: float) -> str:
-    return f"S${value:,.0f}"
+    return f"SGD${value:,.0f}"
 
 
 def show_prediction(result: PredictionResult) -> None:
