@@ -90,7 +90,7 @@ def show_prediction(result: PredictionResult) -> None:
             st.write(f"• {limitation}")
 
 
-def page_intro(title: str, description: str) -> None:
+def page_intro(title: str, description: str, caption_text: str | None = None) -> None:
     st.title(title)
     st.write(description)
     st.caption("Predictions are generated using trained models and supporting reference data.")
