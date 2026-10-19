@@ -90,11 +90,17 @@ def show_prediction(result: PredictionResult) -> None:
             st.write(f"• {limitation}")
 
 
-def page_intro(title: str, description: str, caption_text: str | None = None) -> None:
+def page_intro(
+    title: str,
+    description: str,
+    caption_text: str | None = None
+) -> None:
     st.title(title)
     st.write(description)
 
     if caption_text:
         st.caption(caption_text)
     else:
-    st.caption("All predictions are generated using pre-trained models and locally-stored reference data.")
+        st.caption(
+            "All predictions are generated using pre-trained models and locally stored reference data."
+        )
