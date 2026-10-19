@@ -7,7 +7,7 @@ from src.inference.ui import app_market_summary, money, page_intro
 
 
 st.set_page_config(page_title="Market Analysis", page_icon="📈", layout="wide")
-page_intro("Market Analysis", "Explore compact summaries precomputed from the supplied transaction data.")
+page_intro("Market Analysis", "Explore historical property data and market trends using publicly available transaction records.")
 
 market = app_market_summary()
 category = st.selectbox("Market", ["HDB", "Executive Condominium", "Landed"])
