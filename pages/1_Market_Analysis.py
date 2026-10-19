@@ -71,4 +71,4 @@ else:
         frame_column = "market_segment"
         table_chart(data["market_segments"], "Market segment")
 
-st.caption("Charts describe the supplied historical data; they are not forecasts.")
+st.caption("The charts show historical transaction trends and are not intended to predict future prices.")
