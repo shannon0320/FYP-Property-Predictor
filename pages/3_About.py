@@ -19,7 +19,7 @@ The application uses locally stored models and reference data to generate predic
 ### Scope choices
 
 - A general private condominium prediction model was not included due to the limited amount of available transaction data.
-- Rental prediction was not included as rental transaction data was not available.
+- Rental prediction was not included as transaction data I had contained no rental records and was difficult to integrate.
 - MRT-related variables were not included in the EC model as they did not improve prediction performance.
 - The landed property model focuses on individual residential properties and does not use MRT-related variables due to limitations in the available location data.
 
