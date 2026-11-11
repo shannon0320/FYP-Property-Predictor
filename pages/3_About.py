@@ -12,7 +12,7 @@ st.markdown(
     """
 ### Data and models
 
-TThe estimates are based on HDB resale transactions, URA residential property transactions, the HDB Resale Price Index (RPI) and MRT-related location information. 
+The estimates are based on HDB resale transactions, URA residential property transactions, the HDB Resale Price Index (RPI) and MRT-related location information. 
 
 The application uses locally stored models and reference data to generate predictions and display supporting information.
 
